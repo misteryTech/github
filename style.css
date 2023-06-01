@@ -56,6 +56,28 @@ body{
     font-size: 20px;
 
 }
+
+
+    
+
+.navbar-nav li a:hover{
+    color: #00305f !important;
+    font-weight: 600;
+    font-size: 20px;
+    
+    
+
+}
+
+.navbar-nav li .active a{
+    color: #414447 !important;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
 .role{
     color: #4e8edc;
 }
@@ -226,4 +248,10 @@ header.masthead{
 }
 .owl-dot.active{
     background-color: #fff !important;
+}
+.img-thumbnail{
+    border-color: #3c8cee;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 5px;
 }
