@@ -96,6 +96,14 @@ body{
     
 }
 
+.pic3{
+    border-radius: 40px;
+    padding: 10px
+    
+}
+
+
+
 .fa-bars{
     color: #fff;
     font-size: 30px;
@@ -124,12 +132,25 @@ body{
 #about .pic1{
    border-radius: 20px;
     box-shadow: #3c8cee;
+    padding: 20px
 }
 
 .pic2{
     border-radius: 20px;
     margin-top: -50px;
-    margin-left: 100px;
+    margin-left:50px;
+    padding: 0 20px 20px;
+
+ }
+
+
+ @media screen and (width: 700px){
+    .pic2{
+        border-radius: 20px;
+        margin-top: 10px;
+        padding: 20px 20px;
+    
+     }
  }
 
 header.masthead{
@@ -157,16 +178,23 @@ header.masthead{
   }
 
 
-  .counters{
-    background-image: url('data.jpg');
+  .counters .count{
+    font-size: 60px;
     height:100px;
-    color: #fff;
+    color: #3c8cee;
     font-weight: 600;
+  }
+
+
+  .counters{
+    font-weight: 600px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   
   .footer{
-    background: linear-gradient(to right, #414447,#3a4152);
+    background-image: url("backs1.png");
     height:150px;
     color: #fff;
   }
@@ -195,7 +223,7 @@ header.masthead{
     padding: 15px;
     color: #fff;
     border-radius: 25px;
-    background-image: linear-gradient(to right, #3c8cee,#1149cb);
+    background-color: rgba(255,255,255,0.08);
     backdrop-filter : blur(12px);
     -webkit-backdrop-filter:blur(12px);
     
@@ -205,7 +233,7 @@ header.masthead{
 
 
 .testimonials{
-        background-color: #eaeaea;
+        background-image: url(backs1.png);
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center;
