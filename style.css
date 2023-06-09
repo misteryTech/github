@@ -12,6 +12,28 @@ body{
     top: 0;
     z-index: 10;
 }
+.background-image
+{ background-image: url(backs1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.freelance{
+    background-color: rgba(255,255,255,0.08);
+    backdrop-filter : blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.freelance .form-label{
+    color: #1149cb;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
 
 
 .navbar
